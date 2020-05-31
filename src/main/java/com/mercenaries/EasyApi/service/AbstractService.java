@@ -1,10 +1,11 @@
 package com.mercenaries.EasyApi.service;
 
+import com.mercenaries.EasyApi.domain.AbstractDomain;
 import com.mercenaries.EasyApi.exception.NotFoundException;
-import domain.AbstractDomain;
+import com.mercenaries.EasyApi.repository.AbstractRepository;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.GenericTypeResolver;
-import repository.AbstractRepository;
 
 import java.util.Objects;
 
